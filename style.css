@@ -1,0 +1,20 @@
+div{
+    background-color: aqua;
+    transition: 1000ms;
+    margin: 10px;
+}
+
+.in-blk{
+    background-color: grey;
+}
+.in-blk:active{
+    background-color: brown;
+}
+.in-flex{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    gap: 40px;
+    height: 100px;
+}
