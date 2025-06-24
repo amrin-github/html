@@ -1,0 +1,86 @@
+#product{
+    /* background-color:rgb(179, 170, 234); */
+    height: 20%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    /* flex-wrap: wrap; */
+}
+.head{
+    width: 50%;
+    height: 100%;
+    /* object-fit: cover;    */
+    /* display: block; */
+    /* background: transparent; */
+    justify-content: center;
+    align-items: center;
+}
+.product2{
+    background-color:rgb(157, 231, 143);
+    
+}
+ .card{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+ }
+ .fridge{
+    width: 75%;
+    height: 100%;
+    /* object-fit: cover;    */
+    /* display: block; */
+    /* background: transparent; */
+    justify-content: center;
+    align-items: center;
+}
+.product1{
+    background-color: rgb(179, 170, 234);
+}
+.product3{
+    background-color: rgb(244, 165, 137);
+}
+.product4{
+    background-color:rgb(245, 110, 110);
+}
+.lap{
+    width: 56%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.product5{
+    background-color:rgb(245, 245, 158);
+}
+.product6{
+    background-color:rgb(158, 245, 206);
+}
+#product1{
+    /* background-color:rgb(179, 170, 234); */
+    height: 20%;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+.product7{
+    background-color:rgb(158, 226, 245);
+}
+.product8{
+    background-color:rgb(245, 158, 216);
+}
+.product9{
+    background-color:rgb(88, 77, 242);
+}
+.product10{
+    background-color:rgb(242, 77, 77);
+}
+body{
+    background-color: bisque;
+}
