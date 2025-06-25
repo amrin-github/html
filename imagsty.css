@@ -1,0 +1,25 @@
+.host{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    color: aliceblue;
+    justify-content: center;
+    align-items: center;
+}
+.space{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
