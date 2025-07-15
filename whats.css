@@ -1,0 +1,71 @@
+.overlay-text {
+      top: 2%;
+      left: 2%;
+      right: 2%;
+      background-color: yellow;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 8px;
+    }
+    .overlay-text2 {
+      top: 10%;
+      left: 40%;
+      right: 0%;
+      background-color: rgb(57, 146, 230);
+      color: black;
+      padding: 10px 20px;
+      border-radius: 8px;
+      height: fit-content;
+      width: fit-content;
+    }
+    .overlay-text3 {
+      top: 16%;
+      left: 5%;
+      right: 0%;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      border-radius: 8px;
+      height: fit-content;
+      width: fit-content;
+    }
+    #overlay-text4{
+        top: 22%;
+        left: 85%;
+        
+    }
+    #overlay-text5{
+        top: 28%;
+        left: 5%;
+        
+    }
+    #overlay-text6{
+        top: 34%;
+        left: 57%;
+        
+    }
+    #overlay-text7{
+        top: 40%;
+        left: 5%;
+        
+    }
+    #overlay-text8{
+        top: 46%;
+        left: 60%;
+        
+    }
+    #overlay-text9{
+        top: 52%;
+        left: 5%;
+        right: ;
+    }
+    #overlay-text10{
+        top: 58%;
+        left: 58%;
+        right: ;
+    }
+    #overlay-text11{
+        top: 64%;
+        left: 5%;
+        right: ;
+    }

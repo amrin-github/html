@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>JavaScript</h1>
+    <script>
+        function palindrome(number=0) {
+            let temp = number
+            let rev = 0
+            while (temp > 0) {
+                let rem = temp % 10
+                rev = rev * 10 + rem
+                temp = parseInt(temp/10)
+            }
+            if (rev == number) {
+                console.log("is palindrome")
+            } else{
+                console.log("is not a palindrome")
+            }
+        }
+        palindrome(1442)
+    </script>
+</body>
+</html>
