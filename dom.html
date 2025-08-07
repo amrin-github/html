@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div id="demo">
+        <b>Hello</b>
+    </div>
+    <div></div>
+    <p class="demo1">asdfg</p>
+    <span class="demo">qwerty</span>
+    <form name="signup" oninput="handleClearErrors()" onsubmit="return handleForm()">
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Anni">
+            <span class="error"></span>
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="anni.john@gmail.com">
+            <span class="error"></span>
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </form>
+    <script src="./dom.js"></script>
+</body>
+</html>

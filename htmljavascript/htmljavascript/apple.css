@@ -1,0 +1,32 @@
+
+    .gradient-text {
+      font-size: 48px;
+      font-weight: bold;
+      background: linear-gradient(90deg, rgb(85, 0, 255), rgb(255, 98, 0)); 
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      color: transparent;
+    }
+/* .image-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .image-container img {
+      width: 100%; 
+      display: block;
+    }
+
+    .image-container button {
+      position: absolute;
+      bottom: 10px;  
+      left: 50%;     
+      transform: translateX(-50%);
+      padding: 10px 10px;
+      background-color: #ff4081;
+      color: white;
+      border: none;
+      border-radius: 5px;
+    } */
+

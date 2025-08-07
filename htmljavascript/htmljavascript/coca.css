@@ -1,0 +1,49 @@
+.box_item{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    transition: 400ms;
+}
+
+.box_item:hover{
+    scale: 1.1;
+}
+
+#l:hover{
+    background-color: grey;
+}
+
+@media screen and (min-width:1024px) {
+    .menu{
+        display: none;
+    }
+    .main{
+        display: flex;
+    }
+    #am{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 200px; 
+        width: 500px;
+    }
+    .imgg{
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+}
+@media screen and (max-width:1024px) {
+    .main{
+        display: none;
+    }
+    #am{
+        
+        height: 100%;
+        width: 100%;
+    }
+    .imgg{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            /* align-items: center; */
+            width: 100%;
+            /* text-align: center; */
+            /* border-bottom: 3px solid; */
+            /* border-right: 3px solid; */
+            /* border-spacing: 10px; */
+            border-color: black;
+            border-style: solid;
+        }
+        td,th{
+            /* padding: 4px; */
+            border-style: solid;
+            border-color:black;
+            /* border-spacing: 10cap; */
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th style="vertical-align: top; text-align: left; display: inline-block ; background-color: gray; border: 0px; margin: 5px;">ACC</th>
+            <td></td>
+            <th style="background-color: aquamarine;">Column header 1a</th>
+            <th style="background-color: aquamarine;">Column header 1b</th>
+            <th style="background-color: aquamarine;">Column header 1c</th>
+            <th style="background-color: aquamarine;">Column header 1d</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <th style="background-color: aquamarine;">Column header 2a</th>
+            <th style="background-color: aquamarine;">Column header 2b</th>
+            <th style="background-color: aquamarine;">Column header 2c</th>
+            <th style="background-color: aquamarine;">Column header 2d</th>
+        </tr>
+        <tr>
+            <td rowspan="4" style="background-color:yellow; vertical-align: top;"><b>Row Header 1a</b></td>
+            <td style="background-color:yellow"><b>Row header 2a</b></td>
+            <td>Data col 1 row 1</td>
+            <td>Data col 2 row 1</td>
+            <td>Data col 3 row 1</td>
+            <td>Data col 4 row 1</td>
+        </tr>
+        <tr>
+            <td style="background-color:yellow"><b>Row header 2b</b></td>
+            <td>Data col 1 row 2</td>
+            <td>Data col 2 row 2</td>
+            <td>Data col 3 row 2</td>
+            <td>Data col 4 row 2</td>
+        </tr>
+        <tr>
+            <td style="background-color:yellow;"><b>Row header 2c</b></td>
+            <td>Data col 1 row 3</td>
+            <td>Data col 2 row 3</td>
+            <td>Data col 3 row 3</td>
+            <td>Data col 4 row 3</td>
+        </tr>
+        <tr>
+            <td style="text-align: right; background-color: yellow;" colspan="3"><b>Summary Sub-Total</b></td>
+            <td>Total 1a</td>
+            <td>Total 2a</td>
+        </tr>
+        <tr>
+            <td rowspan="3" style="background-color:yellow; vertical-align: top;"><b>Row header 1b</b></td>
+            <td style="background-color:yellow"><b>Row header 2d</b></td>
+            <td>Data col 1 row 1</td>
+            <td>Data col 2 row 1</td>
+            <td>Data col 3 row 1</td>
+            <td>Data col 4 row 1</td>
+        </tr>
+        <tr>
+            <td style="background-color:yellow"><b>Row header 2e</b></td>
+            <td>Data col 1 row 2</td>
+            <td>Data col 2 row 2</td>
+            <td>Data col 3 row 2</td>
+            <td>Data col 4 row 2</td>
+        </tr>
+        <tr>
+            <td style="text-align: right; background-color: yellow;" colspan="3"><b>Summary Sub-Total</b></td>
+            <td>Total 1b</td>
+            <td>Total 2b</td>
+        </tr>
+        <tr>
+            <td style="text-align: right; background-color: yellow;" colspan="4"><b>Grant Total</b></td>
+            <td>Grand-total</td>
+            <td>Grand-total</td>
+        </tr>
+    </table>
+</body>
+</html>

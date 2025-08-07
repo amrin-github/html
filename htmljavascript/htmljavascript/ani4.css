@@ -1,0 +1,47 @@
+.scr{
+    background-color: black;
+    display:flex;
+    height: 1000px;
+}
+.scr1{
+    background-color: white;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.load{
+    height: 10px;
+    width: 500px;
+    background-color: rgb(37, 173, 37);
+    border: 3px solid black;
+    border-radius: 20%;
+    /* padding: 50px; */
+    align-items: center;
+    justify-content: center;
+    animation: scale 2s infinite;
+    margin: auto;
+    animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes scale {
+     0%{
+        width: 0;
+    }
+    25%{
+        width: ;
+    }
+    50%{
+        transform: scale();
+    }
+    75%{
+        transform: scale();
+    }
+    100%{
+        scroll-timeline: 50px;
+    }
+}
